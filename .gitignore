@@ -1,0 +1,16 @@
+# need iml files https://www.jetbrains.com/help/idea/2016.3/managing-projects-under-version-control.html#d387029e99
+# *.iml
+
+.gradle
+
+# need one of these, too, but create only once
+# has one line:
+# sdk.dir=C\:\\Users\\John\\AppData\\Local\\Android\\android-sdk
+/local.properties
+
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild

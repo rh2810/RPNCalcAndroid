@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="end"
+              android:orientation="vertical">
+    <!-- used to display the numbers on the screen -->
+    <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false">
+
+        <requestFocus />
+
+    </EditText>
+    <!-- first row of buttons -->
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="start">
+
+        <!-- displays a button with the number "7" on it -->
+        <Button
+                android:id="@+id/seven_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/seven_button"/>
+        <!-- displays a button with the number "8" on it -->
+        <Button
+                android:id="@+id/eight_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/eight_button"/>
+        <!-- displays a button with the number "9" on it -->
+        <Button
+                android:id="@+id/nine_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/nine_button"/>
+        <!-- displays a button with the value "pi" on it -->
+        <Button
+                android:id="@+id/pi_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pi_button"/>
+        <!-- displays a button with the division operator "/" on it -->
+        <Button
+                android:id="@+id/divide_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/divide_button"/>
+
+    </LinearLayout>
+
+    <!-- second row of buttons -->
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="start">
+        <!-- displays a button with the number "4" on it -->
+        <Button
+                android:id="@+id/four_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/four_button"/>
+        <!-- displays a button with the number "5" on it -->
+        <Button
+                android:id="@+id/five_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/five_button"/>
+        <!-- displays a button with the number "6" on it -->
+        <Button
+                android:id="@+id/six_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/six_button"/>
+        <!-- displays a button with no value in it -->
+        <Button
+                android:id="@+id/clear_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/clear_button"/>
+        <!-- displays a button with the multiplication operator "*" on it -->
+        <Button
+                android:id="@+id/multiply_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/multiply_button"/>
+    </LinearLayout>
+
+    <!-- third row of buttons -->
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="start">
+        <!-- displays a button with the number "1" on it -->
+        <Button
+                android:id="@+id/one_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/one_button"/>
+        <!-- displays a button with the number "2" on it -->
+        <Button
+                android:id="@+id/two_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/two_button"/>
+        <!-- displays a button with the number "3" on it -->
+        <Button
+                android:id="@+id/three_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/three_button"/>
+        <!-- displays a button with the words "DELETE" on it -->
+        <Button
+                android:id="@+id/delete_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/delete_button"/>
+        <!-- displays a button with the subtraction operator "-" on it -->
+        <Button
+                android:id="@+id/subtract_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/subtract_button"/>
+    </LinearLayout>
+
+    <!-- fourth row of buttons -->
+    <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_gravity="start">
+        <!-- displays a button with the number "0" on it -->
+        <Button
+                android:id="@+id/zero_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/zero_button"/>
+        <!-- creates a decimal button -->
+        <Button
+                android:id="@+id/decimal_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/decimal_button"/>
+        <!-- displays a button with a positive and negative on it -->
+        <Button
+                android:id="@+id/posneg_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/posneg_button"/>
+        <!-- displays a button with the "^" symbol on it -->
+        <Button
+                android:id="@+id/enter_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/enter_button"/>
+        <!-- displays a button with the addition operator "+" on it -->
+        <Button
+                android:id="@+id/add_button"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/add_button"/>
+
+    </LinearLayout>
+
+</LinearLayout>
